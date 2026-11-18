@@ -1,8 +1,10 @@
 #include<iostream>
-using namespace std;
+void printHelloWorldFunc(){
+std::cout << "Hello word!";
+}
 
 int main(){
-cout<<"Hello World";
+printHelloWorldFunc();
 
 return 0;
 }
